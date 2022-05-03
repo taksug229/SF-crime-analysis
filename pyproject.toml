@@ -2,19 +2,19 @@
 name = "msds430"
 version = "0.1.0"
 description = ""
-authors = ["TAKESHI SUGIYAMA <takeshi.sugiyama@hacarus.com>"]
+authors = ["Takeshi Sugiyama <taksug229@gmail.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.9"
 numpy = "^1.22.3"
-matplotlib = "^3.5.1"
+pandas = "^1.4.2"
+matplotlib = "^3.5.2"
+seaborn = "^0.11.2"
+plotly = "^5.7.0"
 jupyter = "^1.0.0"
 scikit-learn = "^1.0.2"
-pandas = "1.2.0"
 openpyxl = "^3.0.9"
-xlrd = "1.2.0"
-plotly = "^5.7.0"
-seaborn = "^0.11.2"
+ipykernel = "^6.13.0"
 
 [tool.poetry.dev-dependencies]
 
