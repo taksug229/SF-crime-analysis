@@ -45,10 +45,12 @@ After cleaning the data, I ended up with **2,345,500 rows (incidents) and 12 col
 
 I began by analyzing the general trends of all crimes. It seems like crimes were on a downward trend from 2004 until mid-2012 (Fig 1). Crimes have been upward from mid-2012 through early 2020 until the pandemic. As San Francisco loosened up lockdowns in 2021, crimes have been increasing again. As for the type of incidents, we can see that theft is the most common crime (Fig 2). The "Other" category consists of 31 different types that include suspicious, miscellaneous, missing person, suicide, etc.
 
+<center><b>Fig 1.</b> 12 months rolling average crimes from 2004~2021</center>
 
 ![All Crime Trend](img/all-crime-trend.png)
-<center><b>Fig 1.</b> 12 months rolling average crimes from 2004~2021</center>
 &nbsp;
+
+<center><b>Fig 2.</b> Incident types occurred in San Francisco from 2003~2021</center>
 
 | Categories        | Incident counts (2003~2021)  |
 | ----------------- | ---------------------------: |
@@ -62,23 +64,25 @@ I began by analyzing the general trends of all crimes. It seems like crimes were
 | Sexual-assault    | 9,246                        |
 | Traffic-collision | 1,221                        |
 | Homicide          | 65                           |
-<center><b>Fig 2.</b> Incident types occurred in San Francisco from 2003~2021</center>
 &nbsp;
 
 ### When crimes occur
 
 I wanted to see precisely when crimes were happening. So I analyzed crimes in the day of the week, time of day, and month. By looking at the data for these criteria, I realized that crimes occur when people are out on the streets. Many people go out on Fridays (Fig 3) or 12 pm and 6 pm for lunch or leaving work (Fig 4), so it makes sense that crimes occur more during these times. There isn't a consistent month with more crime than others, but December usually had fewer crimes than other months (Fig 5). December may have had fewer crimes because many people are on holiday during this time, and hence there are fewer people out in the streets.
 
-![DOW](img/DOW-crimes.png)
 <center><b>Fig 3.</b> Annual crimes per day of the week from 2003~2021</center>
+
+![DOW](img/DOW-crimes.png)
 &nbsp;
+
+<center><b>Fig 4.</b> Total crimes in each hour from 2003~2021</center>
 
 ![hour](img/hour-crimes.png)
-<center><b>Fig 4.</b> Total crimes in each hour from 2003~2021</center>
 &nbsp;
 
-![month](img/month-crimes.png)
 <center><b>Fig 5.</b> The average number of crimes per day for each month from 2003~2021</center>
+
+![month](img/month-crimes.png)
 &nbsp;
 
 ### Threat to community crimes
@@ -87,24 +91,28 @@ I wanted to analyze if "threat to community" (TTC) crimes increased in San Franc
 
 I was also curious to know the effects of [Proposition 47](https://www.courts.ca.gov/prop47.htm), which passed in 2014 as a California ballot initiative, under which theft of less than $950 in goods is treated as a nonviolent misdemeanor and rarely prosecuted. Many [articles](https://www.wsj.com/articles/san-francisco-shoplifters-theft-walgreens-decriminalized-11634678239) point out that theft has increased ever since California passed this law. We can observe that theft decreased from 2005~2010 and started to grow in 2011. Ever since Proposition 47 passed in 2014, the number of theft crimes has been upward. Critiques will argue that this law has made our streets less safe. However, TTC crimes decreased in 2016 and haven't reached 2017 levels ever since, and we see fewer violent crimes. We don't know if these results were the direct effects of Proposition 47, and it is debatable if this law made the streets of San Francisco less safe or not.
 
-![TTC Crimes](img/TTC-crimes.png)
 <center><b>Fig 6.</b> TTC crimes from 2003-2021</center>
+
+![TTC Crimes](img/TTC-crimes.png)
 &nbsp;
 
 ### TTC crimes in the top 5 neighborhoods
 
 The downtown area of "Financial District/South Beach" had the highest TTC crimes of all neighborhoods (Fig 7). From 2003 to 2019, this neighborhood was responsible for about 17~23% of all TTC crimes in San Francisco (Fig 8). This number has dropped to 13% in 2020 and 2021 due to the pandemic. As more people work from home, fewer people are in downtown; hence, fewer crimes. The top 5 neighborhoods for TTC crimes have always been "Financial District/South Beach," "Mission," "Tenderloin," "Bayview Hunters Point," and "Western Addition ." From 2003 to 2017, the top 5 neighborhoods were responsible for more than 50% of TTC crimes in San Francisco (Fig 9). That rate has steadily decreased since 2018, and it is now at the lowest point at around 40%. Since the overall TTC crimes increased in 2021, but the top 5 neighborhoods decreased, we can imply that TTC crimes have been scattered to other neighborhoods.
 
-![TTC neighborhoods](img/TTC-neighborhoods.png)
 <center><b>Fig 7.</b> TTC crimes from 2003~2021 by neighborhood</center>
+
+![TTC neighborhoods](img/TTC-neighborhoods.png)
 &nbsp;
+
+<center><b>Fig 8.</b> The proportion of TTC crimes from 2003~2021 in the top 5 neighborhoods</center>
 
 ![TTC top5](img/TTC-top5.png)
-<center><b>Fig 8.</b> The proportion of TTC crimes from 2003~2021 in the top 5 neighborhoods</center>
 &nbsp;
 
-![TTC top5](img/TTC-top5-total.png)
 <center><b>Fig 9.</b> The ratio of TTC crimes from 2003~2021 in the top 5 neighborhoods (aggregated)</center>
+
+![TTC top5](img/TTC-top5-total.png)
 &nbsp;
 
 ---
