@@ -17,6 +17,8 @@ openpyxl = "^3.0.9"
 ipykernel = "^6.13.0"
 beautifulsoup4 = "^4.11.1"
 textblob = "^0.17.1"
+yelpapi = "^2.4.0"
+folium = "^0.12.1"
 
 [tool.poetry.dev-dependencies]
 

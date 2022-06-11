@@ -2,11 +2,13 @@
 Intro/
 .idea
 .python-version
+*.ipynb_checkpoints
+.mypy_cache
+.venv
 *.pdf
 *.html
 *.png
+*.csv
 Learning-python-2896241-main/
-**/Exercise Files - Python Essential Training /
-module4/data.zip
-module4/Police_Department_Incident_Reports__2018_to_Present.csv
-module4/Police_Department_Incident_Reports__Historical_2003_to_May_2018.csv
+Exercise Files - Python Essential Training /
+module*/
